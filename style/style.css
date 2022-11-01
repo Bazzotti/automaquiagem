@@ -4,6 +4,7 @@ html,body {
 
 h1, h2, h3, h4,h5,h6, p {
     color:#ffffff;
+    font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -16,7 +17,7 @@ header {
     display: flex;
     margin-top: 50px;
     flex-direction: column;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .container-title {
@@ -26,11 +27,12 @@ header {
 
 .container-title h1 {
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 65px;
+    font-weight: bold;
 }
 
 .container-title h2 {
@@ -40,4 +42,119 @@ header {
     flex-direction: column;
     align-items: center;
     font-size: 36px;
+    font-style: italic;
 }
+
+#container-autoestima {
+    margin-bottom: 100px;
+}
+
+.container-button {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    width: 400px;
+    height: 80px;
+    background-color: #daa520;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: inset 0 -3px 0 rgb(0 0 0 / 25%);
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+.container-button .button:hover {
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 25%);
+}
+
+.container-button .autoestima {
+    margin:auto;
+}
+
+.container-button .autoestima  h2{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.container-button .autoestima-img {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 50px;
+    max-width: 630px;
+}
+
+.container-button .autoestima-img img{
+    width: 285px;
+    margin-bottom: 25px;
+}
+
+.container-button .autoestima-img .comparao {
+    width: 295px;
+}
+
+.container-button .autoestima-img p {
+    font-size: 18px;
+    color: #c0c0c0;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+#container-sobre {
+    background-color: #f2f2f2;
+}
+
+#container-sobre .sobre {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#container-sobre .sobre .sobre-img img{
+    width: 380px;
+}
+
+#container-sobre .sobre .description{
+    max-width: 560px;
+}
+
+#container-sobre .sobre .description h3{
+    color:#000000;
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#container-sobre .sobre .description p{
+    color:#525252;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.sobre-button {
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+}
+
+.sobre-button .button {
+    font-size: 40px;
+    width: 100%;
+    height: 140px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+

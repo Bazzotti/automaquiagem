@@ -10,6 +10,7 @@ h1, h2, h3, h4,h5,h6, p {
 
 img {
     width: 200px;
+    max-width: 100%;
 }
 
 header {
@@ -59,6 +60,10 @@ header {
 }
 
 .button {
+    margin: auto;
+}
+
+.button a {
     width: 400px;
     height: 80px;
     background-color: #daa520;
@@ -69,11 +74,17 @@ header {
     border-radius: 50px;
     font-size: 20px;
     box-shadow: inset 0 -3px 0 rgb(0 0 0 / 25%);
-    margin-bottom: 100px;
     font-weight: bold;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
 }
 
-.box-button .button:hover {
+.button.mb a {
+    margin-bottom: 100px;
+}
+
+.box-button .button a:hover {
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 25%);
 }
 
@@ -232,6 +243,22 @@ header {
     margin-bottom:100px
 }
 
+.conteudo-curso-intro h5 {
+    color: #777;
+}
+
+.conteudo-curso-intro h5 span {
+    color: yellow;
+}
+
+.conteudo-curso-imagem {
+    width: 600px;
+}
+
+.conteudo-curso-imagem-mobile {
+    display: none;
+}
+
 #container-curso .conteudo-curso .botao-adquirir {
     max-width: 1000px;
     width: 100%;
@@ -259,17 +286,16 @@ header {
 
 #container-curso .conteudo-curso .descricao >div {
     display: flex;
-    margin: auto;
     max-width: 400px;
     width: 100%;
     margin-bottom: 50px;
     height: 150px;
-    align-items: baseline;
+    align-items: flex-start;
 }
 
 #container-curso .conteudo-curso .descricao div .curso{
     display: flex;
-    margin: auto;
+    
     flex-direction: column;
 }
 
@@ -366,13 +392,12 @@ header {
 
 .container-button {
     background-color: #F2F2F2;
-    height: 240px;
+    padding: 30px;
 }
 
 .container-button .box-container {
     max-width: 1000px;
     margin: auto;
-    padding-top: 50px;
     display: flex;
 }
 
@@ -590,4 +615,16 @@ header {
 .container-button .menor h3{
     font-size: 30px;
     height: 80px;
+}
+
+@media (max-width: 767px) {
+    .conteudo-curso-imagem {
+        display: none;
+    }
+    
+    .conteudo-curso-imagem-mobile {
+        display: block;
+        max-width: 100%;
+        width: 350px;
+    }
 }

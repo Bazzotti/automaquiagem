@@ -526,8 +526,9 @@ header {
     margin: auto;
     margin-top: 25px;
     justify-content: space-between;
-    display: inline-block;
+    display: flex;
     position: relative;
+    gap: 20px;
 }
 
 #container-celebridades .container-box .post-celebridade div {
@@ -543,10 +544,12 @@ header {
 
 #container-celebridades .container-box .post-celebridade div p {
     position: absolute;
-    bottom: 25px;
-    left: 20px;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
     font-size: 18px;
-    background: rgba(0, 0, 0, 0.4)
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10PX;
 }
 
 #container-certificado .container-box {

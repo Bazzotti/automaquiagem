@@ -330,7 +330,7 @@ header {
     padding-left: 30px;
 }
 
-#container-materias {
+#container-materiais {
     max-width: 1000px;
     margin: auto;
     display: flex;
@@ -338,11 +338,11 @@ header {
     align-items: center;
 }
 
-#container-materias .materias {
+#container-materiais .materiais {
     text-align: center;
 }
 
-#container-materias .materias h3 {
+#container-materiais .materiais h3 {
     font-size: 40px;
     color: #c0c0c0;
     line-height: 35px;
@@ -350,7 +350,7 @@ header {
     margin-bottom: 20px;
 }
 
-#container-materias .materias p {
+#container-materiais .materiais p {
     color: #c0c0c0;
     font-size: 20px;
 }
@@ -632,6 +632,109 @@ header {
 }
 
 @media (max-width: 767px) {
+
+    .button a {
+        width: 200px;
+        font-size: 10px;
+        height: 50px;
+    }
+
+    .button.mb a {
+        margin-bottom: 25px;
+    }
+
+    header {
+        max-width: 500px;
+        text-align: center;
+    }
+
+    header .container-title h1 {
+        font-size: 20px;
+    }
+
+    header .container-title h2 {
+        font-size: 15px;
+    }
+
+    .video {
+        width: 500px;
+        height: 150px;
+    }
+
+    #container-autoestima .box-button .autoestima {
+        text-align: center;
+    }
+
+    #container-autoestima .box-button .autoestima h3 {
+        font-size: 15px;
+    }
+
+    #container-autoestima .box-button .autoestima .autoestima-img {
+        max-width: 500px;
+    }
+
+    #container-autoestima .box-button .autoestima .autoestima-img img {
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    #container-sobre .sobre {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 500px;
+    }
+
+    #container-sobre .sobre .sobre-img img {
+        width: 200px;
+        margin-bottom: 25px;
+    }
+
+    .sobre-button .button {
+        height: 25px;
+    }
+
+    #container-atencao {
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+
+    #container-atencao .atencao h3 {
+        font-size: 25px;
+    }
+
+    #container-atencao .atencao p {
+        font-size: 15px;
+    }
+
+    #container-atencao .atencao img {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    #container-atencao .nunca-mais div {
+        max-width: 150px;
+    }
+
+    #container-atencao .nunca-mais div img {
+        object-fit: cover;
+        height: 100px;
+    }
+
+    #container-atencao .nunca-mais div p {
+        font-size: 10px
+    }
+
+    #container-curso .conteudo-curso {
+        max-width: 500px;
+    }
+
+    .conteudo-curso .conteudo-curso-intro h5 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
     .conteudo-curso-imagem {
         display: none;
     }
@@ -641,4 +744,147 @@ header {
         max-width: 100%;
         width: 350px;
     }
-}
+
+    #container-curso .conteudo-curso .botao-adquirir .button {
+        height: 100px;
+    }
+
+    #container-curso .conteudo-curso .descricao-titulo {
+        font-size: 20px;
+    }
+
+    #container-curso .conteudo-curso .descricao {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #container-curso .conteudo-curso .descricao >div {
+        height: auto;
+    }
+
+    #container-materiais {
+        max-width: 500px;
+        margin-bottom: 25px;
+    }
+
+    #container-materiais .materiais h3 {
+        font-size: 20px;
+    }
+
+    #container-materiais .materiais p {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    #container-aula .box-container {
+        max-width: 500px;
+    }
+
+    #container-aula .box-container div {
+        max-width: 150px;
+    }
+
+    #container-aula .box-container div img {
+        width: 150px;
+        height: 90px;    
+    }
+
+    #container-aula .box-container div p {
+        font-size: 10px;
+    }
+
+    #container-filmagem .container-box {
+        max-width: 500px;
+    }
+
+    #container-filmagem .container-box h3 {
+        font-size: 20px;
+    }
+
+    #container-indicacao .container-box {
+        max-width: 500px;
+    }
+
+    #container-indicacao .container-box .indicativa h3 {
+        font-size: 20px;
+    }
+
+    #container-indicacao .container-box .opcoes div {
+        max-width: 150px;
+    }
+
+    #container-indicacao .container-box .opcoes div img {
+        object-fit: cover;
+    }
+
+    #container-indicacao .container-box .opcoes div p {
+        font-size: 12px;
+    }
+
+    #container-indicacao .container-box .resultado-reais h3 {
+        font-size: 20px;
+    }
+
+    #container-indicacao .container-box .resultado-img img {
+        width: 160px;
+    }
+
+    #container-celebridades .container-box {
+        max-width: 500px;
+    }
+
+    #container-celebridades .container-box h4 {
+        font-size: 20px;
+    }
+
+    #container-celebridades .container-box p {
+        font-size: 15px;
+    }
+
+    #container-celebridades .container-box .post-celebridade div img {
+        width: 150px;
+        height: 250px;
+    }
+
+    #container-certificado .container-box h3 {
+        font-size: 20px;
+    }
+
+    #container-certificado .container-box img {
+        width: 300px;
+        height: 200px;
+    }
+
+    #container-valor .container-box {
+        max-width: 500px;
+    }
+
+    #container-valor .container-box h3 {
+        font-size: 20px;
+    }
+
+    #container-valor .container-box img {
+        width: 200px;
+    }
+
+    #container-reembolso .container-box {
+        max-width: 500px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container-reembolso .container-box img {
+        width: 150px;
+        margin-bottom: 25px;
+    }
+
+    #container-reembolso .container-box div h3 {
+        font-size: 20px;
+    }
+
+    #container-reembolso .container-box div p {
+        font-size: 15px;
+    }
+}   

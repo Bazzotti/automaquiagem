@@ -754,8 +754,7 @@ header {
     }
 
     #container-curso .conteudo-curso .descricao {
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding: 25px;
     }
 
     #container-curso .conteudo-curso .descricao >div {

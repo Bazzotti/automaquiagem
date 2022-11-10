@@ -887,4 +887,175 @@ header {
     #container-reembolso .container-box div p {
         font-size: 15px;
     }
-}   
+}
+
+@media (max-width:480px) {
+
+    .video {
+        max-width: 350px;
+        margin: auto;
+    }
+
+    #container-autoestima {
+        margin-bottom: 50px;
+    }
+
+    #container-autoestima .box-button .autoestima h3{
+        font-size: 12px;
+    }
+
+    #container-autoestima .box-button .autoestima .autoestima-img {
+        margin-top: 25px;
+        max-width: 350px;
+    }
+
+    #container-autoestima .box-button .autoestima .autoestima-img img{
+        max-width: 150px;
+        height: 150px;
+    }
+    
+    #container-autoestima .box-button .autoestima .autoestima-img p {
+        font-size: 12px;
+    }
+
+    #container-sobre .sobre {
+        max-width: 350px;
+    }
+
+    #container-sobre .sobre .description h3{
+        font-size: 25px;
+    }
+
+    #container-sobre .sobre .description div p {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    #container-atencao {
+        max-width: 350px;
+    }
+
+    #container-atencao .nunca-mais {
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #container-materiais {
+        max-width: 350px;
+    }
+
+    #container-materiais .materiais h3 {
+        font-size: 15px;
+    }
+
+    #container-materiais .materiais p {
+        font-size: 12px;
+        margin-bottom: 20px;    
+    }
+
+    #container-aula .box-container {
+        max-width: 350px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container-aula .box-container div {
+        margin-bottom: 25px;
+    }
+
+    #container-filmagem .container-box {
+        max-width: 350px;
+    }
+
+    #container-filmagem .container-box h3 {
+        font-size: 18px;
+    }
+
+    #container-indicacao .container-box {
+        max-width: 350px;
+    }
+
+    #container-indicacao .container-box .indicativa h3 {
+        font-size: 18px;
+    }
+
+    #container-indicacao .container-box .opcoes {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container-indicacao .container-box .opcoes div {
+        height: 330px;
+    }
+
+    #container-indicacao .container-box .resultado-reais h3 {
+        font-size: 18px;
+    }
+
+    #container-indicacao .container-box .resultado-img {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container-celebridades .container-box {
+        max-width: 350px;
+    }
+
+    #container-celebridades .container-box h4 {
+        font-size: 15px;
+    }
+
+    #container-celebridades .container-box p {
+        font-size: 12px;
+    }
+
+    #container-celebridades .container-box .post-celebridade {
+        width: unset;
+        margin: auto;
+        margin-top: 25px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    #container-certificado .container-box h3 {
+        font-size: 18px;
+    }
+
+    #container-certificado .container-box img {
+        width: 250px;
+        height: 150px;
+    }
+
+    #container-valor .container-box {
+        max-width: 350px;
+        padding-bottom: 25px;
+    }
+
+    #container-valor .container-box h3 {
+        font-size: 15px;
+    }
+
+    #container-reembolso .container-box {
+        max-width: 350px;
+        margin-bottom: 50px;
+    }
+
+    #container-reembolso .container-box img {
+        width: 100px;
+    }
+
+    #container-reembolso .container-box div h3 {
+        font-size: 15px;
+    }
+
+    #container-reembolso .container-box div p {
+        font-size: 12px;
+    }
+}
